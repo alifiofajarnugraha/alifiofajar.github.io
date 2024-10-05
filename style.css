@@ -70,10 +70,9 @@ body{
 
 .content1 img{
     margin-right: 40px; 
-    width: 350px; 
+    width: 200px; 
     height: auto;
     border-radius: 10px;
-
 }
 .content1 p {
     flex: 1;
