@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    scroll-behavior:smooth;
+}
+body{
+    min-height: 100vh;
+    
+    background-size: cover;
+    
+    min-height: 800px;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-bottom: 2px solid ;
+}
+
+.logo{
+    font-size: 25px;
+    color: #143a40;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+.logo span{
+    color:#196c7567;
+}
+
+.navbar-nav a{
+    font-size: 14px;
+    color:#143a40;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.navbar-nav a:hover{
+    color: #196c7567;
+    position: relative;
+}
+
+.Home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.content1{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    border: 2px solid #333;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #33333321;
+    text-align: center;
+}
+
+.content1 img{
+    margin-right: 40px; 
+    width: 350px; 
+    height: auto;
+    border-radius: 10px;
+
+}
+.content1 p {
+    flex: 1;
+    text-align: left; 
+}
+
+.Skill{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background: url(gambar/gifgif.gif) no-repeat ;
+    background-position: bottom;
+    
+}
+
+.Skill h1{
+    padding: 10px 7% 2px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.content2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 100px;
+    
+}
+
+.content2 img{
+    width: 200px; 
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.python, .java, .figma {
+    transform: translateY(-100px); 
+}
+.Skill h1{
+    transform: translateY(-100px);
+}
+
+
+.python{
+    
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid #333;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #33333321;
+    text-align: center;
+}
+.java{
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid #333;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #33333321;
+    text-align: center;
+}
+.figma{
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid #333;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #33333321;
+    text-align: center;
+}
+
+.Social{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Social .content3{
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid #333;
+    padding: 20px 5% ;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #33333321;
+    text-align: center;
+    margin-left: 100px;
+}
+.Social h1 {
+    text-align: center;
+    padding: 10px 10% 2px;
+}
+
+
+.media-icons li,
+.services-icons li {
+  display: inline-block;
+  margin: 0.5em 0.5em 0.5em 0;
+}
+.media-icons a {
+  font-size: 3.1em;
+  width: 2em;
+  height: 2em;
+  border: 1px #fff solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  color: #143a40;
+}
+.media-icons a:hover {
+  background: #fff;
+  color: #143a40;
+}
